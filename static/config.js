@@ -20,4 +20,4 @@ const Config = {
   authDomain: "cloud-run-453519.firebaseapp.com",
 };
 
-export default Config;
+// export default Config;
