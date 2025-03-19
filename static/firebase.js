@@ -122,7 +122,7 @@ async function vote(team) {
        */
       const formData = new URLSearchParams();
       formData.append("team", team);
-      const response = await fetch("/vote", {
+      const response = await fetch("/", {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
