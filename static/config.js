@@ -15,9 +15,9 @@ import { getFirestore } from "firebase/firestore";
  * Firebase configuration
  * @type {{apiKey: string, authDomain: string}}
  */
-const Config = {
+const config = {
   apiKey: "AIzaSyDPYxbIaeiXLQCUYH04CYzXxU3UYzFaonA",
   authDomain: "cloud-run-453519.firebaseapp.com",
 };
 
-// export default Config;
+// export default config;
