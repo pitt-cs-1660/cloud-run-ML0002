@@ -134,6 +134,7 @@ async function vote(team) {
       if (response.ok) {
         const data = await response.json();
         window.alert(`successfully ${data.message}`);
+        window.location.reload();
       } else {
         const errorData = await response.json();
         window.alert(`Failed! ${errorData.error}`);
