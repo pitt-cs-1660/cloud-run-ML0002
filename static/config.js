@@ -1,5 +1,3 @@
-import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
 /**
  * Update this file with your Firebase configuration settings.
  * API key and auth domain are required.
